@@ -1,0 +1,137 @@
+@media (max-width: 420px) {
+  body {
+    height: auto;
+  }
+  .heroHeader {
+    margin-top: 6%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 8rem;
+  }
+
+  .heroWrapper {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+  }
+  .logo {
+    width: 10%;
+    position: initial;
+    margin-bottom: 2%;
+  }
+
+  .heroName {
+    font-size: 1.1rem;
+  }
+  .social-links {
+    margin: 8% 0 20% 14%;
+    position: initial;
+  }
+  .social-links svg {
+    width: 1.5rem;
+  }
+  .mainNav {
+    position: fixed;
+    width: 100vw;
+
+    transform: translateX(-90vw);
+    padding-top: 90%;
+  }
+
+  .mainNav a {
+    font-size: 3.5rem;
+  }
+  .navOpener {
+    font-size: 2.5rem;
+    right: 2%;
+    bottom: 8%;
+  }
+
+  .heroImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20% 0.6rem;
+  }
+
+  .gradientbg {
+    top: 2%;
+  }
+
+  .cta {
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    padding: 0 0 0 7%;
+  }
+  .ctaTitle {
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+  }
+  .ctaP {
+    font-size: 0.9rem;
+  }
+
+  .ctabutton {
+    margin-top: 8%;
+  }
+
+  .footer-wrapper {
+    width: 80%;
+    margin: 10% 0 10% 12%;
+    flex-wrap: wrap;
+    position: initial;
+    text-align: left;
+  }
+
+  .footer-info {
+    width: 100%;
+    margin: 4%;
+  }
+
+  .contacting {
+    flex-direction: column-reverse;
+    width: 100vw;
+    padding: 12%;
+    overflow: hidden;
+  }
+
+  .form-info {
+    width: 100%;
+  }
+
+  .formStyle {
+    width: 100%;
+  }
+  .enviaMsg {
+    left: 0;
+    margin-top: 10%;
+  }
+  .info_box {
+    margin-top: 40%;
+  }
+
+  .map-container {
+    width: 100vw;
+    margin: 10% 0 0 3%;
+  }
+  .gMap {
+    width: 80vw;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: 5% 0 0 14%;
+  }
+  .bio {
+    width: 75vw;
+  }
+  .aboutImgContainer {
+    width: 75vw;
+    margin: 15% 0 10% 3%;
+    overflow: hidden;
+  }
+}
